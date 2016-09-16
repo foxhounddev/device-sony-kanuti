@@ -81,4 +81,7 @@ TARGET_SYSTEM_PROP += device/sony/kanuti/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += device/sony/kanuti/sepolicy
 
+# QCOM
+BOARD_USES_QCOM_HARDWARE := true
+
 include device/sony/common/CommonConfig.mk
